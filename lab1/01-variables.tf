@@ -12,26 +12,26 @@ variable "AZ_2" {
 
 }
 variable "cidr_block_vpc" {
- type = string
+  type = string
 
 }
-variable "cidr_block_pure_private1_subnet"{
- type = string
+variable "cidr_block_pure_private1_subnet" {
+  type = string
 
 }
-variable "cidr_block_pure_private2_subnet"{
- type = string
+variable "cidr_block_pure_private2_subnet" {
+  type = string
 
 }
-variable "cidr_block_private1_NAT_subnet"{
- type = string
+variable "cidr_block_private1_NAT_subnet" {
+  type = string
 }
-variable "cidr_block_private2_NAT_subnet"{
- type = string
+variable "cidr_block_private2_NAT_subnet" {
+  type = string
 }
-variable "cidr_block_public1_subnet"{
- type = string
+variable "cidr_block_public1_subnet" {
+  type = string
 }
-variable "cidr_block_public2_subnet"{
- type = string
+variable "cidr_block_public2_subnet" {
+  type = string
 }

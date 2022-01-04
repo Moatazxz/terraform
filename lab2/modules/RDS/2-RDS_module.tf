@@ -8,8 +8,8 @@ resource "aws_db_instance" "default" {
   username             = var.username
   password             = var.password
   parameter_group_name = var.parameter_group_name
-  availability_zone = each.value
-  for_each=var.az_list
+  availability_zone    = each.value
+  for_each             = var.az_list
   skip_final_snapshot  = true
 }
 

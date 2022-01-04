@@ -50,7 +50,7 @@ resource "aws_route_table_association" "pure_private2" {
 
 ### elastic ip 
 resource "aws_eip" "main" {
-  vpc      = true
+  vpc = true
 }
 
 ### NAT gitway
